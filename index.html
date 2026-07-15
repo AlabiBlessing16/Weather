@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODUN's Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="main-box">
+        <h1>ODUN's Weather</h1>
+        <p>The Sure App To Provide An Accurate 7-days forecast</p>
+
+        <!-- Search Form -->
+        <form id="my-form">
+            <input type="text" id="user-city" placeholder="Enter a city name..." required>
+            <button type="submit">Search Weather</button>
+        </form>
+
+        <!-- Status Message -->
+        <div id="loading-text"></div>
+        <div id="location-display"></div>
+ 
+        <!-- Weather Box Container -->
+        <div id="forecast-boxes">
+            <!-- JavaScript will insert the 7 boxes here -->
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
